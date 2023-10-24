@@ -1,0 +1,13 @@
+modules:
+  'bitbucket:repoCodeOverviewCard':
+    - key: bitfull-world-panel
+      function: main
+      title: bitfull
+  function:
+    - key: main
+      handler: index.run
+permissions:
+  scopes:
+    - "read:repository:bitbucket"
+app:
+  id: 'ari:cloud:ecosystem::app/01dd5788-f61c-43e5-90c4-6f3e40b59982'
